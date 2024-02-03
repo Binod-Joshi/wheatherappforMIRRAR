@@ -1,6 +1,12 @@
+
+# Weatherapp
+
+live:
 https://weather-check101.netlify.app/     
 
-Installation    
+
+
+## Installatiion
 
 1. **Clone the Repository:**   
     git clone https://github.com/Binod-Joshi/wheatherappforMIRRAR.git   
