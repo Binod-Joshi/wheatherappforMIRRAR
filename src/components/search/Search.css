@@ -1,0 +1,46 @@
+.search{
+    background: none;
+    display: flex;
+    gap: 80px;
+    /* padding-left: 5vh; */
+    justify-content: center;
+    margin-top: 20px;
+}
+.searchCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+input{
+    background-color: aliceblue;
+    outline: none;
+    width: 40vh;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+.searchNearButton{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.searchNearButton1{
+    width: fit-content;
+    margin-top: 4px;
+}
+.searchNearButton1:hover{
+    cursor: pointer;
+    color: rgb(7, 81, 178);
+}
+.celciusWalo{
+    display: flex;
+    margin-top: 3px;
+}
+.button:hover{
+    cursor: pointer;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,30 @@
+.dates{
+
+    margin-top: 50px;
+}
+.dateTime {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: medium;
+    margin-top: 20px;
+   
+
+}
+.cityName {
+    background: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: bold;
+
+
+}
+@media screen and (max-width:600px){
+    .dates{
+        margin-top: 40px;
+    }
+    
+}

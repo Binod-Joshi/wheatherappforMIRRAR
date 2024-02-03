@@ -1,0 +1,70 @@
+.back{
+}
+.maincloudyorWhatever{
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 40px 0 30px 0;
+}
+.weather{
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:10px;
+
+}
+.mainTemp{
+    background: none;
+    padding-left:7vw;
+    font-size: 40px;
+}
+.img1{
+    background: none;
+
+    height: 100px;
+}
+.dayRiseSet{
+    background: none;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.slicewalo{
+    background: none;
+
+    margin-left: 15px;
+    margin-right: 2px;
+}
+.totalDetails{
+    background: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.detail{
+    background: none;
+
+    display: flex;
+    gap: 4px;
+}
+
+@media screen and (max-width:600px) {
+    .weather{
+        display: grid;
+    }
+    .totalDetails{
+        margin-top: 15px;
+    }
+    .img1{
+        padding-left:14vw;
+    }
+    .maincloudyorWhatever{
+        margin: 30px 0 0px 0;
+        gap: 10px;
+    }
+}
